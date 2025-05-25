@@ -1,0 +1,143 @@
+openapi: 3.0.0
+info:
+  title: HotWheels API
+  description: API para gerenciamento de carrinhos HotWheels
+  version: "1.0.0"
+servers:
+  - url: https://hotwheels-1-dkgkfbcsa7gjedh9.brazilsouth-01.azurewebsites.net/hotwheels
+paths:
+  /:
+    get:
+      summary: Lista todos os carros
+      operationId: getAllCarros
+      responses:
+        '200':
+          description: Lista de carros
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Carro'
+    post:
+      summary: Cria um novo carro
+      operationId: createCarro
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Carro'
+      responses:
+        '201':
+          description: Carro criado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carro'
+  /{id}:
+    get:
+      summary: Busca carro por ID
+      operationId: getCarroById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Carro encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carro'
+        '404':
+          description: Carro não encontrado
+    put:
+      summary: Atualiza um carro existente
+      operationId: updateCarro
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Carro'
+      responses:
+        '200':
+          description: Carro atualizado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carro'
+        '404':
+          description: Carro não encontrado
+    delete:
+      summary: Deleta um carro por ID
+      operationId: deleteCarro
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Carro deletado com sucesso
+        '404':
+          description: Carro não encontrado
+  /{id}/favorito:
+    patch:
+      summary: Alterna o status de favorito
+      operationId: toggleFavorito
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Status de favorito alterado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carro'
+        '404':
+          description: Carro não encontrado
+components:
+  schemas:
+    Carro:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        nome:
+          type: string
+          example: Camaro Amarelo
+        anoFabricacao:
+          type: string
+          example: "2020"
+        serie:
+          type: string
+          example: Muscle Cars
+        numeroColecao:
+          type: string
+          example: "HW-2020-32"
+        status:
+          type: string
+          enum: [CARRO, MOTO, BICICLETA]
+          example: "CARRO"
+        favorito:
+          type: boolean
+          example: true
+        imagem:
+          type: string
+          example: "https://link-da-imagem.com/carro.jpg"
