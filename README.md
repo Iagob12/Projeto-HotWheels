@@ -1,57 +1,53 @@
-🚗 HotWheels - Minha Coleção
-Aplicativo mobile desenvolvido em React Native para gerenciamento de coleções de carrinhos Hot Wheels, permitindo visualização, cadastro, edição e exclusão de modelos, além de uma área dedicada à lista de desejos.
+# 🚗💨 HotWheels - Minha Coleção 🏎️🔥
 
-📱 Funcionalidades
-📋 Listagem de modelos cadastrados com imagem, nome, ano e outras informações;
+> *Organize sua frota de máquinas em miniatura com velocidade e estilo!*
 
-➕ Cadastro de novos carrinhos com os seguintes campos:
+---
 
-Modelo
+## 🏁 Sobre o Projeto
 
-Ano de fabricação
+**HotWheels - Minha Coleção** é um aplicativo mobile completo, desenvolvido em **React Native**, para todos os entusiastas e colecionadores de Hot Wheels! Com ele, você pode **cadastrar, visualizar, editar e excluir** seus modelos, além de organizar os carrinhos dos seus sonhos em uma **lista de desejos**. A paixão por miniaturas, agora na palma da sua mão!
 
-Número do carro
+---
 
-Tipo (ex: esportivo, clássico, conceito, etc.)
+## 🛠️ Funcionalidades Turbinadas
 
-Linha/Coleção
+* 📋 **Listagem de modelos cadastrados**: visualize sua coleção com imagem, nome, ano e detalhes importantes.
+* ➕ **Cadastro de novos carrinhos**: adicione suas máquinas com campos como:
+    * **Modelo**
+    * **Ano de fabricação**
+    * **Número do carro**
+    * **Tipo** (ex: esportivo, clássico, conceito, etc.)
+    * **Linha/Coleção**
+    * **URL da imagem**
+* ✏️ **Edição de dados**: atualize as informações dos seus carros diretamente na tela de detalhes.
+* ❌ **Remoção de modelos**: delete carrinhos da sua coleção com um clique.
+* ❤️ **Wishlist**: organize os modelos que você ainda sonha em ter.
+* 📂 **Visualização detalhada**: explore cada item da sua coleção com todas as informações.
+* 📲 **Menu inferior fixo**: navegação rápida entre as principais telas.
+* 🔘 **Botão central flutuante**: crie novos itens de forma prática e em destaque.
 
-URL da imagem
+---
 
-✏️ Edição de dados diretamente na tela de detalhes;
+## ⚙️ Tecnologias Utilizadas
 
-❌ Remoção de modelos com um clique;
+### 🚀 Frontend (React Native)
 
-❤️ Wishlist para organização dos modelos desejados;
+* **React Native**: O motor principal para o desenvolvimento mobile multiplataforma.
+* **React Navigation**: Gerenciamento de rotas e navegação fluida entre telas.
+* **Expo Vector Icons**: Ícones vetorizados para uma interface visualmente rica.
+* **React Native Gesture Handler**: Manipulação de gestos e toques para uma experiência intuitiva.
+* **React Native Reanimated**: Animações fluidas e modernas para um visual dinâmico.
 
-📂 Visualização detalhada de cada item da coleção;
+### 🌐 Backend (Java + Spring Boot)
 
-📲 Menu inferior fixo para navegação entre as principais telas;
+* **Java (Spring Boot)**: A API REST robusta que gerencia todos os dados da sua coleção.
+* **Hospedagem**: Microsoft Azure
+    * [Acesse a API aqui](https://hotwheels-1-dkgkfbcsa7gjedh9.brazilsouth-01.azurewebsites.net)
 
-🔘 Botão central flutuante para criação de novos itens com destaque.
+### 📂 Estrutura de Pastas
 
-🧪 Tecnologias Utilizadas
-🔧 Frontend
-React Native – Framework principal para desenvolvimento mobile multiplataforma;
-
-React Navigation – Gerenciamento de rotas e navegação entre telas;
-
-Expo Vector Icons – Biblioteca de ícones vetoriais;
-
-React Native Gesture Handler – Manipulação de gestos e toques;
-
-React Native Reanimated – Suporte a animações fluidas e modernas.
-
-🌐 Backend
-Java (Spring Boot) – API REST para gerenciamento dos dados da coleção;
-
-Hospedagem: Microsoft Azure
-https://hotwheels-1-dkgkfbcsa7gjedh9.brazilsouth-01.azurewebsites.net
-
-📂 Estrutura de Pastas
-bash
-Copy
-Edit
+```bash
 /src
  ┣ /assets           → Logos e imagens estáticas
  ┣ /components       → Componentes reutilizáveis (cards, botões, etc.)
@@ -59,47 +55,34 @@ Edit
  ┣ /routes           → Configuração da navegação
  ┣ /services         → Comunicação com a API
  ┗ App.js            → Arquivo principal da aplicação
-🖼️ Telas da Aplicação
-Tela Inicial (Home): listagem dos carros cadastrados com botões de ação;
+📸 Telas da Aplicação
+Tela Inicial (Home): Sua garagem virtual com a listagem dos carros cadastrados e botões de ação.
+Tela de Cadastro: Formulário intuitivo para adicionar novos modelos à sua frota.
+Tela de Detalhes: Exibição completa das informações do seu carrinho, com opções de edição.
+Tela de Wishlist: A vitrine dos seus futuros sonhos, com os modelos que você ainda deseja colecionar.
+Menu Inferior: Navegação rápida e eficaz com ícones para Home, Adicionar e Wishlist.
+🚀 Como Colocar a Coleção para Rodar Localmente
+1. Clone o repositório:
+Bash
 
-Tela de Cadastro: formulário para adicionar novos modelos;
-
-Tela de Detalhes: exibição completa das informações do carro com opção de edição;
-
-Tela de Wishlist: modelos que ainda não fazem parte da coleção;
-
-Menu Inferior: navegação rápida com ícones para Home, Adicionar e Wishlist.
-
-🚀 Como Executar o Projeto Localmente
-Clone o repositório:
-
-bash
-Copy
-Edit
-git clone https://github.com/seu-usuario/HotWheels-Minha-Colecao.git
+git clone [https://github.com/seu-usuario/HotWheels-Minha-Colecao.git](https://github.com/seu-usuario/HotWheels-Minha-Colecao.git)
 cd HotWheels-Minha-Colecao
-Instale as dependências:
+2. Instale as dependências:
+Bash
 
-bash
-Copy
-Edit
 npm install
-Inicie o projeto com Expo:
+3. Inicie o projeto com Expo:
+Bash
 
-bash
-Copy
-Edit
 npx expo start
-Escaneie o QR Code com o aplicativo Expo Go no celular para visualizar.
+4. Visualize no seu celular:
+Escaneie o QR Code com o aplicativo Expo Go no seu smartphone para ver a coleção em ação!
 
 👨‍💻 Equipe de Desenvolvimento
-Projeto desenvolvido por:
+Este projeto foi acelerado e desenvolvido por:
 
 Iago
-
 Pedro
-
 Amanda
-
-⚠️ Observações
-Este projeto tem finalidade acadêmica/demonstrativa. Todas as marcas e imagens associadas à Hot Wheels são propriedades da Mattel e foram utilizadas apenas para fins educacionais.
+⚠️ Observações Importantes
+Este projeto foi criado com finalidade acadêmica e demonstrativa. Todas as marcas e imagens associadas à Hot Wheels são propriedades da Mattel e foram utilizadas exclusivamente para fins educacionais e sem qualquer intenção comercial.
