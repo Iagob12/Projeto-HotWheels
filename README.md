@@ -1,10 +1,13 @@
 🔥🏎️ HotWheels - Minha Coleção 🏎️🔥
+
 Organize seus carrinhos com velocidade e estilo!
 
 🏁 Sobre o Projeto
+
 HotWheels - Minha Coleção é um aplicativo mobile criado para fãs e colecionadores da linha Hot Wheels, permitindo cadastrar, visualizar e gerenciar modelos com praticidade. A interface é colorida, intuitiva e inspirada na identidade visual clássica da marca!
 
 🚙 Funcionalidades
+
 📂 Listagem completa dos carros cadastrados, com:
 
 🧾 Nome do modelo
@@ -28,6 +31,7 @@ HotWheels - Minha Coleção é um aplicativo mobile criado para fãs e coleciona
 🎯 Botão flutuante central para adicionar um novo carro com destaque
 
 🧠 Tecnologias Utilizadas
+
 📱 Frontend
 React Native — Construção de apps mobile (Android/iOS)
 
@@ -40,6 +44,7 @@ React Native Gesture Handler — Interações por toque e gestos
 React Native Reanimated — Animações suaves e modernas
 
 🔗 Backend
+
 Java (Spring Boot) — API REST para manipular os dados
 
 🌐 API hospedada na Azure:
@@ -48,7 +53,9 @@ arduino
 Copy
 Edit
 https://hotwheels-1-dkgkfbcsa7gjedh9.brazilsouth-01.azurewebsites.net
+
 📱 Telas do Projeto
+
 📌 Home – Lista dos modelos cadastrados com imagens e botão de deletar
 📌 Cadastro – Formulário com os campos principais para adicionar carrinhos
 📌 Detalhes – Tela completa com opção de editar os dados do modelo
@@ -56,9 +63,6 @@ https://hotwheels-1-dkgkfbcsa7gjedh9.brazilsouth-01.azurewebsites.net
 📌 Navegação – Menu inferior com ícones de Casa, Adicionar e Coração
 
 🗂️ Estrutura de Pastas (Frontend)
-bash
-Copy
-Edit
 /src
  ┣ /assets           → Logos, ícones e imagens fixas
  ┣ /components       → Botões, cards, inputs e etc.
@@ -67,11 +71,9 @@ Edit
  ┣ /services         → Comunicação com a API (axios)
  ┗ App.js            → Arquivo raiz da aplicação
 🚀 Como Executar o Projeto Localmente
+
 Clone o repositório:
 
-bash
-Copy
-Edit
 git clone https://github.com/Iagob12/Projeto-HotWheels.git
 cd Projeto-HotWheels
 Instale as dependências:
@@ -82,9 +84,6 @@ Edit
 npm install
 Inicie o projeto com Expo:
 
-bash
-Copy
-Edit
 npx expo start
 Escaneie o QR Code com o app Expo Go no seu celular para visualizar!
 
