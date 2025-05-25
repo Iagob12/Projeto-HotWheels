@@ -6,7 +6,7 @@
 
 ## 🏁 Sobre o Projeto
 
-**HotWheels - Minha Coleção** é um aplicativo mobile completo, desenvolvido em **React Native**, para todos os entusiastas e colecionadores de Hot Wheels! Com ele, você pode **cadastrar, visualizar, editar e excluir** seus modelos, além de organizar os carrinhos dos seus sonhos em uma **lista de desejos**. A paixão por miniaturas, agora na palma da sua mão!
+**HotWheels - Minha Coleção** é um aplicativo mobile, desenvolvido em **React Native**, para todos os entusiastas e colecionadores de Hot Wheels! Com ele, você pode **cadastrar, visualizar, editar e excluir** seus modelos, além de organizar os carrinhos dos seus sonhos em uma **lista de desejos**. A paixão por miniaturas, agora na palma da sua mão!
 
 ---
 
@@ -22,7 +22,6 @@
     * **URL da imagem**
 * ✏️ **Edição de dados**: atualize as informações dos seus carros diretamente na tela de detalhes.
 * ❌ **Remoção de modelos**: delete carrinhos da sua coleção com um clique.
-* ❤️ **Wishlist**: organize os modelos que você ainda sonha em ter.
 * 📂 **Visualização detalhada**: explore cada item da sua coleção com todas as informações.
 * 📲 **Menu inferior fixo**: navegação rápida entre as principais telas.
 * 🔘 **Botão central flutuante**: crie novos itens de forma prática e em destaque.
