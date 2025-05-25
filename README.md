@@ -54,6 +54,8 @@
  ┣ /routes           → Configuração da navegação
  ┣ /services         → Comunicação com a API
  ┗ App.js            → Arquivo principal da aplicação
+```
+
 📸 Telas da Aplicação
 Tela Inicial (Home): Sua garagem virtual com a listagem dos carros cadastrados e botões de ação.
 Tela de Cadastro: Formulário intuitivo para adicionar novos modelos à sua frota.
