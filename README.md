@@ -56,34 +56,50 @@
  ┗ App.js            → Arquivo principal da aplicação
 ```
 
-📸 Telas da Aplicação
-Tela Inicial (Home): Sua garagem virtual com a listagem dos carros cadastrados e botões de ação.
-Tela de Cadastro: Formulário intuitivo para adicionar novos modelos à sua frota.
-Tela de Detalhes: Exibição completa das informações do seu carrinho, com opções de edição.
-Tela de Wishlist: A vitrine dos seus futuros sonhos, com os modelos que você ainda deseja colecionar.
-Menu Inferior: Navegação rápida e eficaz com ícones para Home, Adicionar e Wishlist.
-🚀 Como Colocar a Coleção para Rodar Localmente
-1. Clone o repositório:
-Bash
+## 📸 Telas da Aplicação
 
-git clone [https://github.com/seu-usuario/HotWheels-Minha-Colecao.git](https://github.com/seu-usuario/HotWheels-Minha-Colecao.git)
+Confira um tour pelas principais telas do **HotWheels - Minha Coleção**:
+
+* **Tela Inicial (Home)**: Sua garagem virtual, exibindo a listagem dos carros cadastrados e botões de ação para acesso rápido.
+* **Tela de Cadastro**: Um formulário prático e intuitivo para você adicionar novos modelos à sua frota.
+* **Tela de Detalhes**: Mergulhe fundo nas informações do seu carrinho, com todos os detalhes e opções de edição.
+* **Tela de Wishlist**: A vitrine dos seus futuros sonhos! Organize e acompanhe os modelos que você ainda deseja colecionar.
+* **Menu Inferior**: Navegação rápida e eficaz entre as principais seções, com ícones para Home, Adicionar e Wishlist.
+
+---
+
+## 🚀 Como Colocar a Coleção para Rodar Localmente
+
+Quer acelerar e testar o app na sua máquina? Siga estes passos simples:
+
+### 1. Clone o repositório:
+
+```bash
+git clone (https://github.com/Iagob12/Projeto-HotWheels.git)
+```
+```bash
 cd HotWheels-Minha-Colecao
-2. Instale as dependências:
-Bash
+```
 
+### 2. Instale as dependências:
+
+```bash
 npm install
-3. Inicie o projeto com Expo:
-Bash
+```
 
+### 3. Inicie o projeto com Expo:
+
+```bash
 npx expo start
-4. Visualize no seu celular:
-Escaneie o QR Code com o aplicativo Expo Go no seu smartphone para ver a coleção em ação!
+```
 
-👨‍💻 Equipe de Desenvolvimento
+### 4. Visualize no seu celular:
+Com o projeto rodando, basta escanear o QR Code que aparecerá no seu terminal usando o aplicativo Expo Go no seu smartphone. Prepare-se para ver sua coleção em ação!
+
+
+###  👨‍💻 Equipe de Desenvolvimento
 Este projeto foi acelerado e desenvolvido por:
 
-Iago
-Pedro
-Amanda
-⚠️ Observações Importantes
-Este projeto foi criado com finalidade acadêmica e demonstrativa. Todas as marcas e imagens associadas à Hot Wheels são propriedades da Mattel e foram utilizadas exclusivamente para fins educacionais e sem qualquer intenção comercial.
+### Iago - Iagob12
+### Pedro - irunael
+### Amanda - amandaatts
