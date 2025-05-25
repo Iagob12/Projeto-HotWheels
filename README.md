@@ -1,81 +1,83 @@
-🔥🏎️ HotWheels - Minha Coleção 🏎️🔥
+🚗 HotWheels - Minha Coleção
+Aplicativo mobile desenvolvido em React Native para gerenciamento de coleções de carrinhos Hot Wheels, permitindo visualização, cadastro, edição e exclusão de modelos, além de uma área dedicada à lista de desejos.
 
-Organize seus carrinhos com velocidade e estilo!
+📱 Funcionalidades
+📋 Listagem de modelos cadastrados com imagem, nome, ano e outras informações;
 
-🏁 Sobre o Projeto
+➕ Cadastro de novos carrinhos com os seguintes campos:
 
-HotWheels - Minha Coleção é um aplicativo mobile criado para fãs e colecionadores da linha Hot Wheels, permitindo cadastrar, visualizar e gerenciar modelos com praticidade. A interface é colorida, intuitiva e inspirada na identidade visual clássica da marca!
+Modelo
 
-🚙 Funcionalidades
+Ano de fabricação
 
-📂 Listagem completa dos carros cadastrados, com:
+Número do carro
 
-🧾 Nome do modelo
+Tipo (ex: esportivo, clássico, conceito, etc.)
 
-📅 Ano de fabricação
+Linha/Coleção
 
-🆔 Número do carro
+URL da imagem
 
-🚗 Tipo (esportivo, clássico, etc.)
+✏️ Edição de dados diretamente na tela de detalhes;
 
-🧃 Linha ou coleção
+❌ Remoção de modelos com um clique;
 
-🖼️ Imagem do modelo
+❤️ Wishlist para organização dos modelos desejados;
 
-➕ Cadastro de novos modelos com formulário simplificado
-✏️ Edição de carros existentes diretamente pela tela de detalhes
-❌ Remoção rápida de modelos
-📝 Visualização detalhada de cada carro da coleção
-🌟 Wishlist para salvar os modelos que você ainda quer encontrar
-📱 Menu inferior fixo para navegação entre Home, Adicionar e Lista de Desejos
-🎯 Botão flutuante central para adicionar um novo carro com destaque
+📂 Visualização detalhada de cada item da coleção;
 
-🧠 Tecnologias Utilizadas
+📲 Menu inferior fixo para navegação entre as principais telas;
 
-📱 Frontend
-React Native — Construção de apps mobile (Android/iOS)
+🔘 Botão central flutuante para criação de novos itens com destaque.
 
-React Navigation — Navegação entre as telas
+🧪 Tecnologias Utilizadas
+🔧 Frontend
+React Native – Framework principal para desenvolvimento mobile multiplataforma;
 
-Expo Vector Icons — Ícones customizados e escaláveis
+React Navigation – Gerenciamento de rotas e navegação entre telas;
 
-React Native Gesture Handler — Interações por toque e gestos
+Expo Vector Icons – Biblioteca de ícones vetoriais;
 
-React Native Reanimated — Animações suaves e modernas
+React Native Gesture Handler – Manipulação de gestos e toques;
 
-🔗 Backend
+React Native Reanimated – Suporte a animações fluidas e modernas.
 
-Java (Spring Boot) — API REST para manipular os dados
+🌐 Backend
+Java (Spring Boot) – API REST para gerenciamento dos dados da coleção;
 
-🌐 API hospedada na Azure:
-
-arduino
-Copy
-Edit
+Hospedagem: Microsoft Azure
 https://hotwheels-1-dkgkfbcsa7gjedh9.brazilsouth-01.azurewebsites.net
 
-📱 Telas do Projeto
-
-📌 Home – Lista dos modelos cadastrados com imagens e botão de deletar
-📌 Cadastro – Formulário com os campos principais para adicionar carrinhos
-📌 Detalhes – Tela completa com opção de editar os dados do modelo
-📌 Wishlist – Visualização dos modelos desejados ainda não adquiridos
-📌 Navegação – Menu inferior com ícones de Casa, Adicionar e Coração
-
-🗂️ Estrutura de Pastas (Frontend)
+📂 Estrutura de Pastas
+bash
+Copy
+Edit
 /src
- ┣ /assets           → Logos, ícones e imagens fixas
- ┣ /components       → Botões, cards, inputs e etc.
- ┣ /screens          → Telas: Home, Cadastro, Detalhes, Wishlist
- ┣ /routes           → Configuração das rotas de navegação
- ┣ /services         → Comunicação com a API (axios)
- ┗ App.js            → Arquivo raiz da aplicação
-🚀 Como Executar o Projeto Localmente
+ ┣ /assets           → Logos e imagens estáticas
+ ┣ /components       → Componentes reutilizáveis (cards, botões, etc.)
+ ┣ /screens          → Telas da aplicação (Home, Detalhes, Cadastro, Wishlist)
+ ┣ /routes           → Configuração da navegação
+ ┣ /services         → Comunicação com a API
+ ┗ App.js            → Arquivo principal da aplicação
+🖼️ Telas da Aplicação
+Tela Inicial (Home): listagem dos carros cadastrados com botões de ação;
 
+Tela de Cadastro: formulário para adicionar novos modelos;
+
+Tela de Detalhes: exibição completa das informações do carro com opção de edição;
+
+Tela de Wishlist: modelos que ainda não fazem parte da coleção;
+
+Menu Inferior: navegação rápida com ícones para Home, Adicionar e Wishlist.
+
+🚀 Como Executar o Projeto Localmente
 Clone o repositório:
 
-git clone https://github.com/Iagob12/Projeto-HotWheels.git
-cd Projeto-HotWheels
+bash
+Copy
+Edit
+git clone https://github.com/seu-usuario/HotWheels-Minha-Colecao.git
+cd HotWheels-Minha-Colecao
 Instale as dependências:
 
 bash
@@ -84,11 +86,14 @@ Edit
 npm install
 Inicie o projeto com Expo:
 
+bash
+Copy
+Edit
 npx expo start
-Escaneie o QR Code com o app Expo Go no seu celular para visualizar!
+Escaneie o QR Code com o aplicativo Expo Go no celular para visualizar.
 
-👥 Equipe de Desenvolvimento
-Este projeto foi desenvolvido em grupo por:
+👨‍💻 Equipe de Desenvolvimento
+Projeto desenvolvido por:
 
 Iago
 
@@ -96,7 +101,5 @@ Pedro
 
 Amanda
 
-🏁 Observações Finais
-🔒 Todos os dados são armazenados e manipulados via uma API REST externa.
-🎨 A interface foi pensada para manter a energia vibrante da marca Hot Wheels.
-⚠️ Este projeto tem fins acadêmicos/demonstrativos e não possui fins comerciais.
+⚠️ Observações
+Este projeto tem finalidade acadêmica/demonstrativa. Todas as marcas e imagens associadas à Hot Wheels são propriedades da Mattel e foram utilizadas apenas para fins educacionais.
